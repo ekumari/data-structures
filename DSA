@@ -36,11 +36,13 @@ Key idea: Use a queue to explore neighbors level by level.
 
 Common problems: Shortest path in graph, binary tree level order traversal.
 
-6. Binary Search
+6. Binary Search (Modified)
 When to use: Problems on sorted arrays or search spaces.
 
 Key idea: Repeatedly divide search space in half.
 
 Common problems: Search in sorted array, find pivot, search in rotated array.
 
-
+7. Topological Sort
+8. Top K Elements
+9. Subsets
