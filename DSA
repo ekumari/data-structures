@@ -1,0 +1,46 @@
+1. Sliding Window
+When to use: Problems involving subarrays/substrings with contiguous elements.
+
+Key idea: Use a window (start and end pointers) to maintain a subset and slide over the data efficiently.
+
+Common problems: Maximum sum subarray, longest substring without repeating characters, minimum window substring.
+
+Example:
+Find max sum of subarray of size k.
+
+2. Two Pointers
+When to use: Problems involving pairs or comparing elements from two ends or arrays.
+
+Key idea: Use two indices moving towards each other or in the same direction to reduce complexity.
+
+Common problems: Pair with target sum, merge sorted arrays, remove duplicates from sorted array.
+
+3. Fast and Slow Pointers (Tortoise and Hare)
+When to use: Detecting cycles, finding middle element.
+
+Key idea: Two pointers move at different speeds (slow = 1 step, fast = 2 steps).
+
+Common problems: Linked list cycle detection, finding middle of linked list.
+
+4. Depth-First Search (DFS) / Backtracking
+When to use: Problems involving exploring all paths, permutations, combinations, subsets.
+
+Key idea: Recursively explore options, backtrack if not valid.
+
+Common problems: N-Queens, permutations, sudoku solver, graph traversals.
+
+5. Breadth-First Search (BFS)
+When to use: Problems involving shortest path or level-order traversal.
+
+Key idea: Use a queue to explore neighbors level by level.
+
+Common problems: Shortest path in graph, binary tree level order traversal.
+
+6. Binary Search
+When to use: Problems on sorted arrays or search spaces.
+
+Key idea: Repeatedly divide search space in half.
+
+Common problems: Search in sorted array, find pivot, search in rotated array.
+
+
