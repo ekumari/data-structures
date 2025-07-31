@@ -1,3 +1,4 @@
 Save the Go code in go/ and run with:
 
-go run go/stack.go
+cd data-structures/go
+go run stack.go

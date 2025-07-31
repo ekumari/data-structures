@@ -1,0 +1,46 @@
+Go follows package, import and func order
+
+Variable :
+    String, int, float, boolean.. etc
+
+    String can be added using + 
+    we already know 2+3, 2.3 + 4.5 works 
+
+    f := "apple" is only available within a func not outside..
+
+    A const statement can appear anywhere a var statement can.
+    const s string = "APPLE"
+
+Looping:
+    Go has only for looping
+    for loop can be used as while, infinte loop
+
+    for i:= range 6 // loop from 1 to 6
+
+Conditional:
+    if, else if, else
+
+Switch:
+    basic remain same as in other langauge, just no need of break after eash case
+
+    Check interface type 
+        whatAmI := func(i interface{}) {
+        switch t := i.(type) {
+        case bool:
+            fmt.Println("I'm a bool")
+        case int:
+            fmt.Println("I'm an int")
+        default:
+            fmt.Printf("Don't know type %T\n", t)
+        }
+    }
+
+    whatAmI(true)
+    whatAmI(1)
+    whatAmI("ANJANI")
+
+Slice:
+    s := []int{1,2,3}
+    s = make([]string, 3) // slice with zerod value
+    c := make([]string, len(s))
+    copy(c, s) // copy slice s to c
